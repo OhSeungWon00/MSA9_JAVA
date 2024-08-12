@@ -9,12 +9,11 @@ public class CarTest extends Car {
 
 		Car car = new Car();
 		car.model = "투싼";
-		
-		// car.speed = 200;
-		// private으로 지정하여 speed 에러, 외부에서 접근 불가
 
+// car.speed = 200;
+// private으로 지정하여 speed 에러, 외부에서 접근 불가
 		car.setSpeed(200);
-		System.out.println("model :" + car.getModel());
+		System.out.println("model :" + car.getModel()); 
 		System.out.println("speed :" + car.getSpeed());
 
 		car.setSpeed(-50);
@@ -26,8 +25,13 @@ public class CarTest extends Car {
 		car.setSpeed(200);
 		System.out.println("model :" + car.getSpeed());
 		
+		System.out.println();
 		
 		
+		Car car2 = new Car("테슬라", 5000);
+		
+		System.out.println("Model : " + car2.model);
+		System.out.println("Model : " + car2.getSpeed());
 		
 
 	}

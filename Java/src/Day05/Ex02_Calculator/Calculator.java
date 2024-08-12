@@ -24,34 +24,32 @@ public class Calculator {
 	int sum;
 	double avg;
 
-
-
-	public int plus(int a, int b) {//덧셈
+	public int plus(int a, int b) {// 덧셈
 		int result = a + b;
 		return result;
 	}
 
-	public int minus(int a, int b) {//빨심
+	public int minus(int a, int b) {// 빨심
 		int result = a - b;
 		return result;
 	}
 
-	public double multiple(double x, double y) {//곱셈
+	public double multiple(double x, double y) {// 곱셈
 		double result = x * y;
 		return result;
 	}
 
-	public double divide(double x, double y) {//나눗셈
+	public double divide(double x, double y) {// 나눗셈
 		double result = x / y;
 		return result;
 	}
 
-	public double remain(int a, int b) {//나머지
+	public double remain(int a, int b) {// 나머지
 		int result = a % b;
 		return result;
 	}
 
-	public int sum(int[] value) {//배열 누적산
+	public int sum(int[] value) {// 배열 누적산
 		int result = 0;
 
 		for (int sum : value) {
@@ -60,13 +58,13 @@ public class Calculator {
 		return result;
 	}
 
-	public double avg(int[] values) {//배열 평균
+	public double avg(int[] values) {// 배열 평균
 		int result2 = 0;
 		double result3 = 0.0;
 
 		for (int sum : values) {
-			result2 += sum;
-			result3 = result2 / values.length;
+
+			result3 = sum(values) / values.length;
 		}
 		return result3;
 

@@ -20,10 +20,10 @@ public class Car {
 		this.model = model;
 	}
 
-	public Car(String model, int speed) {
-		super();
-		this.model = model;
-		this.speed = speed;
+	public Car(String x, int y) {
+		
+		this.model = x;
+		this.speed = y;
 	}
 
 	// getter & setter
@@ -49,11 +49,11 @@ public class Car {
 			System.err.println("속도는 음수가 될 수 없습니다.");
 
 		}
-		if(speed>= 300) {
+		if (speed >= 300) {
 			speed = 300;
 			System.err.println("최대 속도는 300km/h입니다.");
 		}
-	
-	this.speed = speed;
-}
+
+		this.speed = speed;
+	}
 }
