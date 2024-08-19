@@ -1,4 +1,4 @@
-package Ex02_ObjectArray;
+package Day02.Ex02_ObjectArray1;
 
 import java.util.Scanner;
 

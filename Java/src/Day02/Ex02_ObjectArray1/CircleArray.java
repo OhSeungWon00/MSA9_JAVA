@@ -1,4 +1,4 @@
-package Ex02_ObjectArray;
+package Day02.Ex02_ObjectArray1;
 
 // 반지름이 1 ~ 5d인 Circle 객체를 5개 가지는 객체 배열을 생성하고,
 // 배열 요소에 있는 모든 Circle 객체의 넓이를 출력하세요.
